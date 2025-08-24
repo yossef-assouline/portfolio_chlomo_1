@@ -2,10 +2,10 @@
 import { motion } from 'framer-motion';
 import { FaWhatsapp } from 'react-icons/fa';
 
-const WhatsAppButton = ({ phoneNumber = '+972501234567' }) => {
+const WhatsAppButton = () => {
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent('שלום! אני מעוניין/ת במידע על חבילות הצילום שלך');
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+    const whatsappUrl = `https://wa.me/972536670760?text=${message}`;
     window.open(whatsappUrl, '_blank');
   };
 

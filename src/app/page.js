@@ -32,19 +32,19 @@ export default function Home() {
       <Hero />
       
       <PhotoGallery 
-        title="צילומי זוגיות" 
+        title="צילומי זוגות - Save the date" 
         photos={couplePhotos} 
         id="couples" 
       />
       
       <PhotoGallery 
-        title="תמונות הריון" 
+        title="צילומי הריון" 
         photos={pregnancyPhotos} 
         id="pregnancy" 
       />
       
       <PhotoGallery 
-        title="תמונות אופנה" 
+        title="צילומי אופנה" 
         photos={fashionPhotos} 
         id="fashion" 
       />

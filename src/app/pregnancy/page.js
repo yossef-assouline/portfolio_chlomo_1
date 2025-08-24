@@ -178,7 +178,7 @@ export default function PregnancyPage() {
                 whileTap={{ scale: 0.98 }}
                 onClick={() => {
                   const message = encodeURIComponent('שלום! אני מעוניין/ת בחבילת צילומי הריון - ₪650');
-                  window.open(`https://wa.me/972000000000?text=${message}`, '_blank');
+                  window.open(`https://wa.me/972536670760?text=${message}`, '_blank');
                 }}
               >
                 הזמן עכשיו

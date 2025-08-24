@@ -65,7 +65,7 @@ const Packages = () => {
               whileTap={{ scale: 0.98 }}
               onClick={() => {
                 const message = encodeURIComponent('שלום! אני מעוניין/ת במידע על חבילות הצילום שלך');
-                window.open(`https://wa.me/972000000000?text=${message}`,'_blank');
+                window.open(`https://wa.me/972536670760?text=${message}`,'_blank');
               }}
             >
               הזמן עכשיו

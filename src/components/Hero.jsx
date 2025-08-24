@@ -26,7 +26,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            צלם מקצועי
+            צלם  זוגות - הריון - משפחות - ‏אופנה -תדמית
           </motion.p>
         </motion.div>
       </div>
