@@ -12,8 +12,8 @@ const heebo = Heebo({
 });
 
 export const metadata = {
-  title: "שלמה אסולין - צילום מקצועי",
-  description: "צילום מקצועי - תמונות הריון, תמונות אופנה ועוד. שלמה אסולין - צלם מקצועי",
+  title: "שלמה אסולין - צלם זוגות - הריון - משפחות - אופנה - תדמית",
+  description: "צילומי הריון, צילומי אופנה ועוד. שלמה אסולין - צלם מקצועי",
 };
 
 export default function RootLayout({ children }) {

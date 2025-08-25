@@ -17,7 +17,7 @@ const Hero = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
           >
-            שלמהה אסולין
+            שלמה אסולין
           </motion.h1>
           
           <motion.p
@@ -26,7 +26,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            צלם  זוגות - הריון - משפחות - אופנה - תדמית
+            צלם זוגות - הריון - משפחות - אופנה - תדמית
           </motion.p>
         </motion.div>
       </div>

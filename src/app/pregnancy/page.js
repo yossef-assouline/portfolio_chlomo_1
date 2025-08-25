@@ -12,15 +12,15 @@ export default function PregnancyPage() {
 
   // Sample gallery images - replace with your actual images
   const galleryImages = [
-    '/pregnant-thumnbail.jpg',
-    '/pregnant-thumnbail.jpg',
-    '/pregnant-thumnbail.jpg',
-    '/pregnant-thumnbail.jpg',
-    '/pregnant-thumnbail.jpg',
-    '/pregnant-thumnbail.jpg',
-    '/pregnant-thumnbail.jpg',
-    '/pregnant-thumnbail.jpg',
-    '/pregnant-thumnbail.jpg',
+    '/pregnant1.jpg',
+    '/pregnant2.jpg',
+    '/pregnant3.jpg',
+    '/pregnant4.jpg',
+    '/pregnant5.jpg',
+    '/pregnant6.jpg',
+    '/pregnant7.jpg',
+    '/pregnant8.jpg',
+    '/pregnant9.jpg',
   ];
 
   const openModal = (index) => {
