@@ -36,14 +36,12 @@ const Packages = () => {
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
             <div className="text-4xl md:text-5xl font-serif font-bold text-[#dcad5c]">
-              ₪500
+            ₪500
             </div>
-            <div className="text-gray-600 text-lg">
-              צילום מלא + 50 תמונות מעובדות
-            </div>
+            
           </div>
 
-          <ul className="space-y-4 mb-8 max-w-md mx-auto">
+          <ul className="space-y-4 mb-8 max-w-md mx-auto ">
             <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
               <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
               <span className="text-gray-700 font-bold">עד שעה של צילום</span>

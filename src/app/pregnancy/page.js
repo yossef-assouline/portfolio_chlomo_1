@@ -147,9 +147,7 @@ export default function PregnancyPage() {
               <div className="text-4xl md:text-5xl font-serif font-bold text-[#dcad5c]">
                 ₪650
               </div>
-              <div className="text-gray-600 text-lg">
-                צילום מלא + 65 תמונות מעובדות
-              </div>
+             
             </div>
 
             <ul className="space-y-4 mb-8 max-w-md mx-auto">

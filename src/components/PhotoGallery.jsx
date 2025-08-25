@@ -56,7 +56,7 @@ const PhotoGallery = ({ title, photos, id }) => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: index * 0.2 }}
             viewport={{ once: true }}
-            className="relative h-120  md:w-2/3 w-full overflow-hidden mt-8 cursor-pointer shadow-2xl transition-all duration-300 group"
+            className="relative h-120  md:w-2/3 w-full overflow-hidden  cursor-pointer shadow-2xl transition-all duration-300 group"
             onClick={handleClick}
           >
             {/* Background Image for each category */}

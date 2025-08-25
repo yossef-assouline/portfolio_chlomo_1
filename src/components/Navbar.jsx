@@ -4,6 +4,7 @@ import { FaInstagram, FaFacebook, FaWhatsapp } from 'react-icons/fa';
 import { IoCameraOutline } from "react-icons/io5";
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 
 
 
@@ -11,11 +12,12 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
   const isMainPage = pathname === '/';
-  
+  const message = encodeURIComponent('שלום! אני מעוניין/ת במידע על חבילות הצילום שלך');
+                window.open(`https://wa.me/972536670760?text=${message}`,'_blank');
   const socialLinks = [
-    { icon: FaInstagram, href: '#', label: 'Instagram' },
-    { icon: FaFacebook, href: '#', label: 'Facebook' },
-    { icon: FaWhatsapp, href: '#', label: 'WhatsApp' },
+    { icon: FaInstagram, href: 'https://www.instagram.com/chlomo_assouline/', label: 'Instagram' },
+    { icon: FaFacebook, href: 'https://www.facebook.com/share/1BHK4aePXq/?mibextid=wwXIfr', label: 'Facebook' },
+    { icon: FaWhatsapp, href: `https://wa.me/972536670760?text=${message}`, label: 'WhatsApp' },
   ];
 
   return (
@@ -49,8 +51,8 @@ const Navbar = () => {
             whileHover={{ scale: 1.05 }}
             onClick={() => window.location.href = '/'}
           >
-            <div className="w-8 h-8 flex items-center justify-center">
-              <IoCameraOutline className="w-7 h-7 text-gray-800" />
+            <div className="w-16 h-16 flex items-center justify-center">
+              <Image src="/logoo.png" alt="לוגו של שלמה אסולין" width={64} height={64} className="" />
             </div>
             <span className="text-gray-800 font-serif font-bold text-2xl">שלמה אסולין</span>
           </motion.div>
