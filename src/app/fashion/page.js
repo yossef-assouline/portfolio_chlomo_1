@@ -97,7 +97,7 @@ export default function FashionPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="relative group cursor-pointer overflow-hidden rounded-lg shadow-lg"
+                className="relative group cursor-pointer overflow-hidden rounded-lg shadow-lg aspect-square md:h-80"
                 onClick={() => openModal(index)}
               >
                 <Image
@@ -106,7 +106,7 @@ export default function FashionPage() {
                   width={400}
                   height={300}
                   priority
-                  className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300 flex items-center justify-center">
                   <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
