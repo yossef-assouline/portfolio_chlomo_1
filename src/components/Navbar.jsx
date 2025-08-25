@@ -13,7 +13,6 @@ const Navbar = () => {
   const pathname = usePathname();
   const isMainPage = pathname === '/';
   const message = encodeURIComponent('שלום! אני מעוניין/ת במידע על חבילות הצילום שלך');
-                window.open(`https://wa.me/972536670760?text=${message}`,'_blank');
   const socialLinks = [
     { icon: FaInstagram, href: 'https://www.instagram.com/chlomo_assouline/', label: 'Instagram' },
     { icon: FaFacebook, href: 'https://www.facebook.com/share/1BHK4aePXq/?mibextid=wwXIfr', label: 'Facebook' },
