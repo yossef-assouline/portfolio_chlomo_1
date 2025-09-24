@@ -12,15 +12,15 @@ export default function CouplesPage() {
 
   // Sample gallery images - replace with your actual images
   const galleryImages = [
-    '/couple-1.jpeg',
-    '/couple-2.jpeg',
-    '/couple-3.jpeg',
-    '/couple-thumnbail.jpg',
-    '/couple-thumnbail.jpg',
-    '/couple-thumnbail.jpg',
-    '/couple-thumnbail.jpg',
-    '/couple-thumnbail.jpg',
-    '/couple-thumnbail.jpg',
+    '/couple-1.jpg',
+    '/couple-2.jpg',
+    '/couple-3.jpg',
+    '/couple-4.jpg',
+    '/couple-5.jpg',
+    '/couple-6.jpg',
+    '/couple-7.jpg',
+    '/couple-8.jpg',
+    '/couple-9.jpg',
   ];
 
   const openModal = (index) => {
@@ -148,7 +148,7 @@ export default function CouplesPage() {
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
               <div className="text-4xl md:text-5xl font-serif font-bold text-[#dcad5c]">
-                ₪600
+                ₪500
               </div>
               
             </div>
@@ -164,7 +164,7 @@ export default function CouplesPage() {
               </li>
               <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
                 <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
-                <span className="text-gray-700 font-bold">בין 60-100 תמונות ערוכות ומוכנות לשימוש</span>
+                <span className="text-gray-700 font-bold">בין 50-100 תמונות ערוכות ומוכנות לשימוש</span>
               </li>
               <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
                 <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
@@ -178,7 +178,7 @@ export default function CouplesPage() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => {
-                  const message = encodeURIComponent('שלום! אני מעוניין/ת בחבילת צילומי זוגות - ₪600');
+                  const message = encodeURIComponent('שלום! אני מעוניין/ת בחבילת צילומי זוגות - ₪500');
                   window.open(`https://wa.me/972536670760?text=${message}`, '_blank');
                 }}
               >
