@@ -12,15 +12,15 @@ export default function FashionPage() {
 
   // Sample gallery images - replace with your actual images
   const galleryImages = [
-    '/fashion-thumnbail.jpg',
-    '/fashion-thumnbail.jpg',
-    '/fashion-thumnbail.jpg',
-    '/fashion-thumnbail.jpg',
-    '/fashion-thumnbail.jpg',
-    '/fashion-thumnbail.jpg',
-    '/fashion-thumnbail.jpg',
-    '/fashion-thumnbail.jpg',
-    '/fashion-thumnbail.jpg',
+    '/fashion-1.jpg',
+    '/fashion-2.jpg',
+    '/fashion-3.jpg',
+    '/fashion-4.jpg',
+    '/fashion-5.jpg',
+    '/fashion-6.jpg',
+    '/fashion-7.jpg',
+    '/fashion-8.jpg',
+    '/fashion-9.jpg',
   ];
 
   const openModal = (index) => {
