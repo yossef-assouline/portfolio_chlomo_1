@@ -145,7 +145,7 @@ export default function FashionPage() {
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
               <div className="text-4xl md:text-5xl font-serif font-bold text-[#dcad5c]">
-                ₪700
+                ₪500
               </div>
              
             </div>
@@ -161,7 +161,7 @@ export default function FashionPage() {
               </li>
               <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
                 <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
-                <span className="text-gray-700 font-bold">בין 70-120 תמונות ערוכות ומוכנות לשימוש</span>
+                <span className="text-gray-700 font-bold">בין 50-100 תמונות ערוכות ומוכנות לשימוש</span>
               </li>
               <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
                 <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
@@ -175,7 +175,7 @@ export default function FashionPage() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => {
-                  const message = encodeURIComponent('שלום! אני מעוניין/ת בחבילת צילומי אופנה - ₪700');
+                  const message = encodeURIComponent('שלום! אני מעוניין/ת בחבילת צילומי אופנה - ₪500');
                   window.open(`https://wa.me/972536670760?text=${message}`, '_blank');
                 }}
               >
