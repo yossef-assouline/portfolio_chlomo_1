@@ -153,24 +153,36 @@ export default function CouplesPage() {
               
             </div>
 
-            <ul className="space-y-4 mb-8 max-w-md mx-auto">
+                    <ul className="space-y-4 mb-8 max-w-md mx-auto ">
+            <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
+              <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
+              <span className="text-gray-700 font-bold">עד שעה של צילום</span>
+            </li>
+            <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
+              <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
+              <span className="text-gray-700 font-bold">צילומים ללא הגבלה במהלך הסשן</span>
+            </li>
+            <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
+              <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
+              <span className="text-gray-700 font-bold">בין 50-100 תמונות ערוכות ומוכנות לשימוש</span>
+            </li>
               <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
-                <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
-                <span className="text-gray-700 font-bold">עד שעה וחצי של צילום</span>
-              </li>
+              <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
+              <span className="text-gray-700 font-bold"> גלריה אינטרנטית נוחה להורדה</span>
+            </li>
               <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
-                <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
-                <span className="text-gray-700 font-bold">צילומים ללא הגבלה במהלך הסשן</span>
-              </li>
+              <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
+              <span className="text-gray-700 font-bold"> התמונות מוכנות עד 10 ימי עסקים</span>
+            </li>
               <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
-                <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
-                <span className="text-gray-700 font-bold">בין 50-100 תמונות ערוכות ומוכנות לשימוש</span>
-              </li>
+              <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
+              <span className="text-gray-700 font-bold"> אפשר להביא כמה סטים לגיוון</span>
+            </li>
               <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
-                <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
-                <span className="text-gray-700 font-bold">עריכה מקצועית לכל תמונה</span>
-              </li>
-            </ul>
+              <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
+              <span className="text-gray-700 font-bold">  התשלום בסיום הצילומים</span>
+            </li>
+          </ul>
 
             <div className="text-center">
               <motion.button

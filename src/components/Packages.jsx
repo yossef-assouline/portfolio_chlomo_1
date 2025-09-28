@@ -54,6 +54,22 @@ const Packages = () => {
               <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
               <span className="text-gray-700 font-bold">בין 50-100 תמונות ערוכות ומוכנות לשימוש</span>
             </li>
+              <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
+              <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
+              <span className="text-gray-700 font-bold"> גלריה אינטרנטית נוחה להורדה</span>
+            </li>
+              <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
+              <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
+              <span className="text-gray-700 font-bold"> התמונות מוכנות עד 10 ימי עסקים</span>
+            </li>
+              <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
+              <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
+              <span className="text-gray-700 font-bold"> אפשר להביא כמה סטים לגיוון</span>
+            </li>
+              <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
+              <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
+              <span className="text-gray-700 font-bold">  התשלום בסיום הצילומים</span>
+            </li>
           </ul>
 
           <div className="text-center">
