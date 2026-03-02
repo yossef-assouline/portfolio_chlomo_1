@@ -4,9 +4,9 @@ import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
 const categoryImages = {
-  couples: '/couple-thumnbail.jpg',
-  pregnancy: '/417.jpg',
-  fashion: '/fashion-thumbnai.jpg',
+  couples: '/KfirgigiIMG_9860.jpg',
+  pregnancy: '/413-1.jpg',
+  fashion: '/shuliIMG_0923.jpg',
 };
 
 const categoryAlts = {
