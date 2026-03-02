@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 
 const categoryImages = {
   couples: '/couple-thumnbail.jpg',
-  pregnancy: '/pregnant-thumnbail.jpg',
+  pregnancy: '/413.jpg',
   fashion: '/fashion-thumbnai.jpg',
 };
 
