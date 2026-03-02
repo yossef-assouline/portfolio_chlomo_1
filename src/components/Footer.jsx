@@ -20,7 +20,7 @@ const Footer = () => {
           className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0"
         >
           <p className="text-gray-600 text-sm">
-            © {currentYear} שלמה אסולין - צילום מקצועי. כל הזכויות שמורות.
+            © {currentYear} שלמה אסולין - כל הזכויות שמורות.
           </p>         
         </motion.div>
       </div>

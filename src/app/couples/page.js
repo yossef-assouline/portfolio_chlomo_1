@@ -12,7 +12,7 @@ export default function CouplesPage() {
 
   // Sample gallery images - replace with your actual images
   const galleryImages = [
-    '/couple-1.jpg',
+    '/AviramIMG_4025.jpg',
     '/couple-2.jpg',
     '/couple-3.jpg',
     '/couple-4.jpg',

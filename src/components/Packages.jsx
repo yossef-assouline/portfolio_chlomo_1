@@ -36,7 +36,7 @@ const Packages = () => {
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
             <div className="text-4xl md:text-5xl font-serif font-bold text-[#dcad5c]">
-            ₪500
+            ₪850
             </div>
             
           </div>
