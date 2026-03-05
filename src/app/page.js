@@ -27,6 +27,13 @@ export default function Home() {
     description: 'תמונות אופנה מקצועיות'
   }];
 
+  // Single photo section for portrait photos
+  const portraitPhotos = [{
+    id: 1,
+    title: 'צילומי פורטרט',
+    description: 'צילומי פורטרט מקצועיים'
+  }];
+
   return (
     <main className="min-h-screen">
       <Hero />
@@ -47,6 +54,12 @@ export default function Home() {
         title="צילומי אופנה" 
         photos={fashionPhotos} 
         id="fashion" 
+      />
+
+      <PhotoGallery 
+        title="צילומי פורטרט" 
+        photos={portraitPhotos} 
+        id="portrait" 
       />
       
       <Packages />

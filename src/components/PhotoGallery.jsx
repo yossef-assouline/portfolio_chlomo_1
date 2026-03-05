@@ -7,18 +7,32 @@ const categoryImages = {
   couples: '/KfirgigiIMG_9860.jpg',
   pregnancy: '/413-1.jpg',
   fashion: '/shuliIMG_0923.jpg',
+  portrait: '/fashion-6.jpg',
 };
 
 const categoryAlts = {
   couples: 'couple-image',
   pregnancy: 'pregnancy-image',
   fashion: 'fashion-image',
+  portrait: 'portrait-image',
 };
 
 const categoryPositions = {
   couples: 'center 30%',
   pregnancy: 'center 80%',
   fashion: 'center 35%',
+  portrait: 'center 40%',
+};
+
+const titleRevealVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      duration: 0.6,
+      ease: 'easeOut',
+    },
+  },
 };
 
 const PhotoGallery = ({ title, photos, id }) => {
@@ -36,6 +50,9 @@ const PhotoGallery = ({ title, photos, id }) => {
       case 'fashion':
         router.push('/fashion');
         break;
+      case 'portrait':
+        router.push('/portrait');
+        break;
       default:
         router.push('/');
     }
@@ -50,12 +67,8 @@ const PhotoGallery = ({ title, photos, id }) => {
     <section id={id} className="py-0 bg-white">
       <div className="w-full flex justify-center p-4">
         {photos.map((photo, index) => (
-          <motion.div
+          <div
             key={index}
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: index * 0.2 }}
-            viewport={{ once: true }}
             className="relative h-120  md:w-2/3 w-full overflow-hidden  cursor-pointer shadow-2xl transition-all duration-300 group"
             onClick={handleClick}
           >
@@ -77,21 +90,21 @@ const PhotoGallery = ({ title, photos, id }) => {
             {/* Dark overlay for text readability */}
             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all duration-300"></div>
 
-            {/* Text Overlay - positioned on the left side */}
+            {/* Text Overlay */}
             <div className="absolute inset-0 flex items-center">
               <div className="w-full px-8 md:px-16 lg:px-24">
                 <motion.h2
-                  initial={{ opacity: 0, x: -50 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.8, delay: 0.3 }}
-                  viewport={{ once: true }}
+                  variants={titleRevealVariants}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.7 }}
                   className="text-4xl md:text-6xl lg:text-7xl text-center font-playfair font-light text-white drop-shadow-lg group-hover:scale-110 transition-transform duration-300"
                 >
                   {title}
                 </motion.h2>
               </div>
             </div>
-          </motion.div>
+          </div>
         ))}
       </div>
     </section>
