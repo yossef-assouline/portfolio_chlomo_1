@@ -4,8 +4,8 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 const WhatsAppButton = () => {
   const handleWhatsAppClick = () => {
-    const message = encodeURIComponent('שלום! אני מעוניין/ת במידע על חבילות הצילום שלך');
-    const whatsappUrl = `https://wa.me/972536670760?text=${message}`;
+    const message = encodeURIComponent('אפשר לקבל פרטים על חבילות הצילומים שלך?');
+    const whatsappUrl = `https://wa.me/9724686433?text=${message}`;
     window.open(whatsappUrl, '_blank');
   };
 
