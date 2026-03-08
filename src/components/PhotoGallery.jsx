@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
 const categoryImages = {
-  couples: '/couple-2.jpg',
+  couples: '/save2.jpg',
   pregnancy: '/413-1.jpg',
   fashion: '/shuliIMG_0923.jpg',
   portrait: '/fashion-6.jpg',
@@ -18,10 +18,10 @@ const categoryAlts = {
 };
 
 const categoryPositions = {
-  couples: 'center 30%',
-  pregnancy: 'center 80%',
-  fashion: 'center 35%',
-  portrait: 'center 40%',
+  couples: 'center 100%',
+  pregnancy: 'center 100%',
+  fashion: 'center 100%',
+  portrait: 'center 100%',
 };
 
 const titleRevealVariants = {
