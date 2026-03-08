@@ -12,15 +12,27 @@ export default function PregnancyPage() {
 
   // Sample gallery images - replace with your actual images
   const galleryImages = [
-    '/pregnant1.jpg',
-    '/pregnant2.jpg',
-    '/pregnant3.jpg',
-    '/pregnant4.jpg',
-    '/pregnant5.jpg',
-    '/pregnant6.jpg',
-    '/pregnant7.jpg',
-    '/pregnant8.jpg',
-    '/pregnant9.jpg',
+    '/preg1.jpg',
+    '/preg13.jpg',
+    '/preg3.jpg',
+    '/preg4.jpg',
+    '/preg5.jpg',
+    '/preg6.jpg',
+    '/preg7.jpg',
+    '/preg8.jpg',
+    '/preg9.jpg',
+    '/preg10.jpg',
+    '/preg11.jpg',
+    '/preg12.jpg',
+    '/preg2.jpg',
+    '/preg14.jpg',
+    '/preg15.jpg',
+    '/preg16.jpg',
+    '/preg17.jpg',
+    '/preg18.jpg',
+    '/preg19.jpg',
+    '/preg20.jpg',
+    '/preg21.jpg',
   ];
 
   const openModal = (index) => {
@@ -149,7 +161,7 @@ export default function PregnancyPage() {
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
               <div className="text-4xl md:text-5xl font-serif font-bold text-[#dcad5c]">
-                ₪500
+                ₪850
               </div>
              
             </div>
@@ -191,8 +203,8 @@ export default function PregnancyPage() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => {
-                  const message = encodeURIComponent('שלום! אני מעוניין/ת בחבילת צילומי הריון - ₪500');
-                  window.open(`https://wa.me/972536670760?text=${message}`, '_blank');
+                  const message = encodeURIComponent('שלום, אני מעוניין להזמין חבילת צילומי הריון. אשמח לקבל פרטים נוספים.');
+                  window.open(`https://wa.me/972534686433?text=${message}`, '_blank');
                 }}
               >
                 הזמן עכשיו
