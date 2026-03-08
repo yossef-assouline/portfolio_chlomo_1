@@ -12,16 +12,15 @@ export default function FashionPage() {
 
   // Sample gallery images - replace with your actual images
   const galleryImages = [
-    '/fashion-1.jpg',
-    '/fashion-2.jpg',
-    '/fashion-3.jpg',
-    '/fashion-4.jpg',
-    '/fashion-5.jpg',
-    '/fashion-6.jpg',
-    '/fashion-7.jpg',
-    '/fashion-8.jpg',
-    '/fashion-9.jpg',
-    '/fashion-9.jpg',
+    '/Pportrait1.jpg',
+    '/Pportrait5.jpg',
+    '/Pportrait3.jpg',
+    '/Pportrait6.jpg',
+    '/Pportrait2.jpg',
+    '/Pportrait4.jpg',
+    '/Pportrait7.jpg',
+    '/Pportrait8.jpg',
+    '/Pportrait9.jpg',
   ];
 
   const openModal = (index) => {
@@ -59,13 +58,14 @@ export default function FashionPage() {
             className="text-center"
           >
             <h2 className="text-3xl md:text-4xl font-serif font-md text-gray-900  mb-8">
-              צילומי אופנה
+צילומי תדמית 
             </h2>
             <div className="text-lg md:text-xl text-gray-700 leading-relaxed space-y-6">
               <p>
-                צילומי אופנה הם דרך מושלמת להציג את הסגנון האישי שלכם ולהדגיש את היופי הטבעי שלכם. 
-                אני מתמחה בצילום אופנה שמתמקד בהדגשת האישיות והסגנון הייחודי שלכם.
-              </p>
+צילומי תדמית הם הדרך להציג את עצמכם ואת העסק שלכם בצורה מקצועית, אותנטית ומרשימה.
+אני מגיע עד אליכם – למשרד, לבית העסק או לבית הלקוח – עם כל הציוד הדרוש: תאורה מקצועית, רקעים וציוד צילום מלא.
+במהלך הצילום תקבלו הכוונה מקצועית שתעזור לכם להרגיש בנוח מול המצלמה ולהוציא את התמונות הטובות ביותר שמתאימות לאתר, לרשתות החברתיות ולמיתוג האישי שלכם.
+המטרה שלי היא ליצור עבורכם תמונות שמציגות אתכם בצורה טבעית, מקצועית ואמינה              </p>
               
             </div>
           </motion.div>
@@ -86,7 +86,7 @@ export default function FashionPage() {
               גלריית תמונות
             </h2>
             <p className="text-lg text-gray-600">
-              דוגמאות לצילומי אופנה מקצועיים וסגנוניים
+              דוגמאות לצילומי תדמית  
             </p>
           </motion.div>
 
@@ -135,11 +135,10 @@ export default function FashionPage() {
           >
             <div className="text-center mb-8">
               <h3 className="text-2xl md:text-3xl font-serif font-bold text-gray-900 mb-4">
-                חבילת צילומי אופנה
+                חבילת צילומי תדמית
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed font-medium max-w-2xl mx-auto">
-                צילום אופנה מקצועי שמדגיש את הסגנון האישי והיופי הטבעי שלכם.
-              </p>
+צילומי תדמית מקצועיים שמטרתם להציג אתכם ואת העסק שלכם בצורה אמינה, טבעית ומקצועית              </p>
             </div>
 
             <div className="border-t border-gray-200 mb-8"></div>
@@ -152,33 +151,46 @@ export default function FashionPage() {
             </div>
 
                      <ul className="space-y-4 mb-8 max-w-md mx-auto ">
-            <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
+                      <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
               <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
-              <span className="text-gray-700 font-bold">עד שעה של צילום</span>
+              <span className="text-gray-700 font-bold">עד שעה של צילום
+</span>
+           
+            </li>
+                          <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
+              <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
+              <span className="text-gray-700 font-bold">מבחר תמונות לבחירה
+</span>
             </li>
             <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
               <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
-              <span className="text-gray-700 font-bold">צילומים ללא הגבלה במהלך הסשן</span>
+              <span className="text-gray-700 font-bold">אני מגיע עד אליכם – למשרד, לבית העסק </span>
+            </li>
+            
+            <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
+              <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
+              <span className="text-gray-700 font-bold">הגעה עם כל הציוד הדרוש: תאורה מקצועית ורקעים</span>
             </li>
             <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
               <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
-              <span className="text-gray-700 font-bold">בין 50-100 תמונות ערוכות ומוכנות לשימוש</span>
+              <span className="text-gray-700 font-bold">הכוונה מלאה במהלך הצילום כדי שתיראו במיטבכם
+</span>
+
+            </li>
+
+              <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
+              <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
+              <span className="text-gray-700 font-bold">אפשרות לכמה סטים / בגדים שונים
+</span>
             </li>
               <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
               <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
-              <span className="text-gray-700 font-bold"> גלריה אינטרנטית נוחה להורדה</span>
+              <span className="text-gray-700 font-bold">התמונות מוכנות עד 10 ימי עסקים</span>
             </li>
               <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
               <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
-              <span className="text-gray-700 font-bold"> התמונות מוכנות עד 10 ימי עסקים</span>
-            </li>
-              <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
-              <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
-              <span className="text-gray-700 font-bold"> אפשר להביא כמה סטים לגיוון</span>
-            </li>
-              <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
-              <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
-              <span className="text-gray-700 font-bold">  התשלום בסיום הצילומים</span>
+              <span className="text-gray-700 font-bold">בין 30 ל-50 תמונות ערוכות באיכות גבוהה
+</span>
             </li>
           </ul>
             <div className="text-center">
