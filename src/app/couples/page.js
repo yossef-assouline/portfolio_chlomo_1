@@ -27,6 +27,9 @@ export default function CouplesPage() {
     '/save13.jpg',
     '/save14.jpg',
     '/save15.jpg',
+    '/save16.jpg',
+    '/save17.jpg',
+    '/save18.jpg',
   ];
 
   const openModal = (index) => {
