@@ -12,15 +12,21 @@ export default function CouplesPage() {
 
   // Sample gallery images - replace with your actual images
   const galleryImages = [
-    '/AviramIMG_4025.jpg',
-    '/couple-2.jpg',
-    '/couple-3.jpg',
-    '/couple-4.jpg',
-    '/couple-5.jpg',
-    '/couple-6.jpg',
-    '/couple-7.jpg',
-    '/couple-8.jpg',
-    '/couple-9.jpg',
+    '/save1.jpg',
+    '/save2.jpg',
+    '/save3.jpg',
+    '/save4.jpg',
+    '/save5.jpg',
+    '/save6.jpg',
+    '/save7.jpg',
+    '/save8.jpg',
+    '/save9.jpg',
+    '/save10.jpg',
+    '/save11.jpg',
+    '/save12.jpg',
+    '/save13.jpg',
+    '/save14.jpg',
+    '/save15.jpg',
   ];
 
   const openModal = (index) => {
@@ -65,9 +71,8 @@ export default function CouplesPage() {
             </h2>
             <div className="text-lg md:text-xl text-gray-700 leading-relaxed space-y-6">
               <p>
-                צילומי זוגות הם דרך מיוחדת לתעד את האהבה והקשר המיוחד שלכם. 
-                אני מתמחה בצילום זוגות רומנטי ואינטימי שמתמקד ברגעים האמיתיים והטבעיים.
-              </p>
+צילומי זוגות הם דרך מיוחדת לתעד את האהבה, החיבור והכימיה ביניכם.
+הסשן מתבצע באווירה טבעית ונעימה, תוך דגש על רגעים אמיתיים, מבטים קטנים וחיוכים ספונטניים שיוצרים תמונות אותנטיות ומרגשות.              </p>
               
             </div>
           </motion.div>
@@ -88,7 +93,7 @@ export default function CouplesPage() {
               גלריית תמונות
             </h2>
             <p className="text-lg text-gray-600">
-              דוגמאות לצילומי זוגות רומנטיים ואינטימיים
+דוגמאות לצילומי זוגות רומנטיים ואינטימיים שצולמו בלוקיישנים טבעיים ובאור מחמיא. 
             </p>
           </motion.div>
 
@@ -137,10 +142,12 @@ export default function CouplesPage() {
           >
             <div className="text-center mb-8">
               <h3 className="text-2xl md:text-3xl font-serif font-bold text-gray-900 mb-4">
-                חבילת צילומי זוגות
+                חבילת צילום פרמיום
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed font-medium max-w-2xl mx-auto">
-                צילום זוגות רומנטי ואינטימי בחוץ עם אווירה טבעית ואותנטית.
+               סשן צילום זוגי באווירה טבעית, רומנטית ואותנטית בלוקיישן חוץ לבחירתכם.
+חוויה זוגית נעימה לצד תמונות מקצועיות שישארו כמזכרת לכל החיים.
+.
               </p>
             </div>
 
@@ -148,7 +155,7 @@ export default function CouplesPage() {
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
               <div className="text-4xl md:text-5xl font-serif font-bold text-[#dcad5c]">
-                ₪500
+                ₪850
               </div>
               
             </div>
@@ -156,7 +163,8 @@ export default function CouplesPage() {
                     <ul className="space-y-4 mb-8 max-w-md mx-auto ">
             <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
               <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
-              <span className="text-gray-700 font-bold">עד שעה של צילום</span>
+              <span className="text-gray-700 font-bold"> עד שעה של צילום בלוקיישן חוץ
+</span>
             </li>
             <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
               <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
@@ -172,11 +180,11 @@ export default function CouplesPage() {
             </li>
               <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
               <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
-              <span className="text-gray-700 font-bold"> התמונות מוכנות עד 10 ימי עסקים</span>
+              <span className="text-gray-700 font-bold"> זמן אספקה עד 10 ימי עסקים</span>
             </li>
               <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
               <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>
-              <span className="text-gray-700 font-bold"> אפשר להביא כמה סטים לגיוון</span>
+              <span className="text-gray-700 font-bold"> אפשרות להביא מספר סטים/לוקים לגיוון</span>
             </li>
               <li className="flex items-center justify-center space-x-3 space-x-reverse gap-2">
               <div className="w-2 h-2 bg-[#dcad5c] rounded-full flex-shrink-0"></div>

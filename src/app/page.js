@@ -57,7 +57,7 @@ export default function Home() {
       />
 
       <PhotoGallery 
-        title="צילומי פורטרט" 
+        title="צילומי תדמית" 
         photos={portraitPhotos} 
         id="portrait" 
       />

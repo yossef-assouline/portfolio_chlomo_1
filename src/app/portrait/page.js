@@ -21,6 +21,7 @@ export default function FashionPage() {
     '/fashion-7.jpg',
     '/fashion-8.jpg',
     '/fashion-9.jpg',
+    '/fashion-9.jpg',
   ];
 
   const openModal = (index) => {

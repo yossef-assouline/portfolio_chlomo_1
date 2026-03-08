@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
 const categoryImages = {
-  couples: '/KfirgigiIMG_9860.jpg',
+  couples: '/couple-2.jpg',
   pregnancy: '/413-1.jpg',
   fashion: '/shuliIMG_0923.jpg',
   portrait: '/fashion-6.jpg',
