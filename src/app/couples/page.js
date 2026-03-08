@@ -202,7 +202,7 @@ export default function CouplesPage() {
                 whileTap={{ scale: 0.98 }}
                 onClick={() => {
                   const message = encodeURIComponent('שלום! אני מעוניין/ת בחבילת צילומי זוגות - ₪850');
-                  window.open(`https://wa.me/972534686433?text=${message}`, '_blank');
+                  window.open(`https://wa.me/+972534686433?text=${message}`, '_blank');
                 }}
               >
                 הזמן עכשיו

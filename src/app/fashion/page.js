@@ -12,15 +12,15 @@ export default function FashionPage() {
 
   // Sample gallery images - replace with your actual images
   const galleryImages = [
-    '/fashion-1.jpg',
-    '/fashion-2.jpg',
-    '/fashion-3.jpg',
-    '/fashion-4.jpg',
-    '/fashion-5.jpg',
-    '/fashion-6.jpg',
-    '/fashion-7.jpg',
-    '/fashion-8.jpg',
-    '/fashion-9.jpg',
+    '/mod1.jpg',
+    '/mod2.jpg',
+    '/mod3.jpg',
+    '/mod4.jpg',
+    '/mod5.jpg',
+    '/mod6.jpg',
+    '/mod7.jpg',
+    '/mod8.jpg',
+    '/mod9.jpg',
   ];
 
   const openModal = (index) => {
@@ -58,12 +58,10 @@ export default function FashionPage() {
             className="text-center"
           >
             <h2 className="text-3xl md:text-4xl font-serif font-md text-gray-900  mb-8">
-              צילומי אופנה
-            </h2>
+צילומי אופנה והפקות            </h2>
             <div className="text-lg md:text-xl text-gray-700 leading-relaxed space-y-6">
               <p>
-                צילומי אופנה הם דרך מושלמת להציג את הסגנון האישי שלכם ולהדגיש את היופי הטבעי שלכם. 
-                אני מתמחה בצילום אופנה שמתמקד בהדגשת האישיות והסגנון הייחודי שלכם.
+צילומי אופנה והפקות שמטרתם ליצור תמונות חזקות, יצירתיות ומקצועיות – למותגים, דוגמנים, מעצבים, רשתות חברתיות ותיק עבודות.
               </p>
               
             </div>

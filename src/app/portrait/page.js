@@ -199,8 +199,8 @@ export default function FashionPage() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => {
-                  const message = encodeURIComponent('שלום! אני מעוניין/ת בחבילת צילומי אופנה - ₪500');
-                  window.open(`https://wa.me/972536670760?text=${message}`, '_blank');
+                  const message = encodeURIComponent('שלום! אני מעוניין/ת בחבילת צילומי תדמית - ₪500');
+                  window.open(`https://wa.me/972534686433?text=${message}`, '_blank');
                 }}
               >
                 הזמן עכשיו
