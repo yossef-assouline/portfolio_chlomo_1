@@ -4,10 +4,10 @@ import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
 const categoryImages = {
-  couples: '/save2.jpg',
-  pregnancy: '/413-1.jpg',
-  fashion: '/shuliIMG_0923.jpg',
-  portrait: '/fashion-6.jpg',
+  couples: '/coverture1.jpg',
+  pregnancy: '/coverture4.jpg',
+  fashion: '/fashion4.jpg',
+  portrait: '/portrait2.jpg',
 };
 
 const categoryAlts = {
