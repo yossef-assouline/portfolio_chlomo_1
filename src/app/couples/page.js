@@ -201,7 +201,7 @@ export default function CouplesPage() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => {
-                  const message = encodeURIComponent('שלום! אני מעוניין/ת בחבילת צילומי זוגות - ₪850');
+                  const message = encodeURIComponent('היי, אפשר לקבל פרטים על חבילת צילום זוגית ?');
                   window.open(`https://wa.me/+972534686433?text=${message}`, '_blank');
                 }}
               >

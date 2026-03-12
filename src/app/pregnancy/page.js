@@ -203,7 +203,7 @@ export default function PregnancyPage() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => {
-                  const message = encodeURIComponent('שלום, אני מעוניין להזמין חבילת צילומי הריון. אשמח לקבל פרטים נוספים.');
+                  const message = encodeURIComponent('היי, אפשר לקבל פרטים על חבילת צילום הריון ?');
                   window.open(`https://wa.me/972534686433?text=${message}`, '_blank');
                 }}
               >

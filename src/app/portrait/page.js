@@ -199,7 +199,7 @@ export default function FashionPage() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => {
-                  const message = encodeURIComponent('שלום! אני מעוניין/ת בחבילת צילומי תדמית - ₪500');
+                  const message = encodeURIComponent('היי, אפשר לקבל פרטים על חבילת צילומי תדמית ?');
                   window.open(`https://wa.me/972534686433?text=${message}`, '_blank');
                 }}
               >

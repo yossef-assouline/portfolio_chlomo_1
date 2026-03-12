@@ -64,7 +64,7 @@ export default function Home() {
       
       <Packages />
       <Footer />
-      <WhatsAppButton phoneNumber="+972501234567" />
+      <WhatsAppButton phoneNumber="+97254686433" />
     </main>
   );
 }

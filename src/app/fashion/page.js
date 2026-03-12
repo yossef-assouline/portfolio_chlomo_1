@@ -12,15 +12,32 @@ export default function FashionPage() {
 
   // Sample gallery images - replace with your actual images
   const galleryImages = [
-    '/mod1.jpg',
+    '/mod11.jpg',
     '/mod2.jpg',
     '/mod3.jpg',
     '/mod4.jpg',
-    '/mod5.jpg',
+    '/mod25.jpg',
     '/mod6.jpg',
     '/mod7.jpg',
-    '/mod8.jpg',
+    '/mod15.jpg',
     '/mod9.jpg',
+    '/mod19.jpg',
+    '/mod1.jpg',
+    '/mod12.jpg',
+    '/mod13.jpg',
+    '/mod14.jpg',
+    '/mod8.jpg',
+    '/mod16.jpg',
+    '/mod17.jpg',
+    '/mod18.jpg',
+    '/mod10.jpg',
+    '/mod20.jpg',
+    '/mod21.jpg',
+    '/mod22.jpg',
+    '/mod23.jpg',
+    '/mod24.jpg',
+    '/mod5.jpg',
+    '/mod26.jpg',
   ];
 
   const openModal = (index) => {
@@ -184,7 +201,7 @@ export default function FashionPage() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => {
-                  const message = encodeURIComponent('שלום! אני מעוניין/ת בחבילת צילומי אופנה - ₪500');
+                  const message = encodeURIComponent('היי, אפשר לקבל פרטים על צילומי אופנה ?');
                   window.open(`https://wa.me/972536670760?text=${message}`, '_blank');
                 }}
               >
