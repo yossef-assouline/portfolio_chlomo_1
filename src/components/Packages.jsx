@@ -59,7 +59,58 @@ const Packages = () => {
   <p className="text-xl md:text-2xl font-serif text-[#dcad5c]">
     כי יש רגעים שלא חוזרים… ואני כאן כדי לשמור אותם בשבילכם 🤍
   </p>
+<div className="text-center max-w-4xl mx-auto my-16" dir="rtl">
 
+  <h2 className="text-3xl md:text-4xl font-serif font-light text-gray-900 mb-10">
+    לקוחות ממליצים
+  </h2>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+    {/* REVIEW 1 */}
+    <div className="bg-white shadow-md rounded-2xl p-6 text-right">
+      <p className="text-gray-700 leading-7 mb-4">
+        "חוויה מושלמת ! שלמה מקצועי, סבלני ונעים מאוד.
+עשינו צילומי הריון בים עם תינוק בן שנה ותשע, ושלמה היה כל כך אכפתי ורגיש לילד, והצליח להוציא תמונות מדהימות תוך יצירת אווירה רגועה וכיפית.
+תודה על הסבלנות, היחס החם והזיכרונות היפים 🙏📸"
+      </p>
+      <span className="text-[#dcad5c] font-medium">★★★★★</span>
+      <p className="text-gray-500 text-sm mt-2">לקוח מאומת – Google</p>
+    </div>
+
+    {/* REVIEW 2 */}
+    <div className="bg-white shadow-md rounded-2xl p-6 text-right">
+      <p className="text-gray-700 leading-7 mb-4">
+        "תודה ענקית לשלמה על שירות מקצועי, סבלני ומדהים לאורך כל הדרך 😇
+היה לנו כל כך כיף להצטלם באווירה נעימה, זורמת ומלאה באנרגיות טובות.
+הרגשנו בנוח מהרגע הראשון, והכי אהבנו את הגמישות, ההקשבה והרצון שלך לזרום עם כל הרעיונות שלנו ולהפוך אותם למציאות.
+תודה על חוויה מיוחדת ועל זיכרונות יפים שנשארו איתנו🌸🙏"
+      </p>
+      <span className="text-[#dcad5c] font-medium">★★★★★</span>
+      <p className="text-gray-500 text-sm mt-2">לקוחה מאומתת – Google</p>
+    </div>
+
+    {/* REVIEW 3 */}
+    <div className="bg-white shadow-md rounded-2xl p-6 text-right">
+      <p className="text-gray-700 leading-7 mb-4">
+        "רצינו להגיד תודה מכל הלב לצלם האלוף שלנו על סבלנות, מקצועיות ואווירה נעימה לאורך כל הצילומים. הצלחת לתפוס רגעים אמיתיים ומלאי אהבה – ואין מאושרים מאיתנו. זכינו"
+      </p>
+      <span className="text-[#dcad5c] font-medium">★★★★★</span>
+      <p className="text-gray-500 text-sm mt-2">לקוח מאומת – Google</p>
+    </div>
+
+    {/* REVIEW 4 */}
+    <div className="bg-white shadow-md rounded-2xl p-6 text-right">
+      <p className="text-gray-700 leading-7 mb-4">
+        "עשיתי יום צילומים עם שמלה והיה מעולה, הגיע בזמן ,הלך חלק וראו שהוא יודע מה הוא עושה- אם זה לכוון אותי מול המצלמה או להוציא את הצדדים היפים יותר🥰
+קיצור מודע לו המון לכו עליו."
+      </p>
+      <span className="text-[#dcad5c] font-medium">★★★★★</span>
+      <p className="text-gray-500 text-sm mt-2">לקוחה מאומתת – Google</p>
+    </div>
+
+  </div>
+</div>
 </motion.div>
           
         </motion.div>
@@ -84,7 +135,7 @@ const Packages = () => {
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
             <div className="text-4xl md:text-5xl font-serif font-bold text-[#dcad5c]">
-        חבילות צילום החל  מ- 850 ₪
+        חבילות צילום החל מ-850 ₪
             </div>
             
           </div>
