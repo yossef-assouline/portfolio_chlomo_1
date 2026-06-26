@@ -134,7 +134,7 @@ const Packages = () => {
           <div className="border-t border-gray-200 mb-8"></div>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
-            <div className="text-4xl md:text-5xl font-serif font-bold text-[#dcad5c]">
+            <div className="text-3xl md:text-5xl font-serif font-bold text-[#dcad5c]">
         חבילות צילום ב-850 ₪
             </div>
             
@@ -171,7 +171,7 @@ const Packages = () => {
               whileTap={{ scale: 0.98 }}
               onClick={() => {
                 const message = encodeURIComponent('שלום! אני מעוניין/ת במידע על חבילות הצילום שלך');
-                window.open(`https://wa.me/972536670760?text=${message}`,'_blank');
+                window.open(`https://wa.me/972534686433?text=${message}`,'_blank');
               }}
             >
     דברו איתי בוואטסאפ 
