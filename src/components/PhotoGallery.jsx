@@ -79,6 +79,7 @@ const PhotoGallery = ({ title, photos, id }) => {
               fill
               priority
               style={{ 
+                margin: 'auto',
                 objectFit: 'cover',
                 objectPosition: imagePosition
               }}
