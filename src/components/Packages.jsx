@@ -75,7 +75,7 @@ const Packages = () => {
 תודה על הסבלנות, היחס החם והזיכרונות היפים 🙏📸"
       </p>
       <span className="text-[#dcad5c] font-medium">★★★★★</span>
-      <p className="text-gray-500 text-sm mt-2">לקוח מאומת – Google</p>
+      <p className="text-gray-500 text-sm mt-2">עדי בן שמחון חכים – Google</p>
     </div>
 
     {/* REVIEW 2 */}
@@ -87,7 +87,7 @@ const Packages = () => {
 תודה על חוויה מיוחדת ועל זיכרונות יפים שנשארו איתנו🌸🙏"
       </p>
       <span className="text-[#dcad5c] font-medium">★★★★★</span>
-      <p className="text-gray-500 text-sm mt-2">לקוחה מאומתת – Google</p>
+      <p className="text-gray-500 text-sm mt-2">Eiwa Atam – Google</p>
     </div>
 
     {/* REVIEW 3 */}
@@ -96,7 +96,7 @@ const Packages = () => {
         "רצינו להגיד תודה מכל הלב לצלם האלוף שלנו על סבלנות, מקצועיות ואווירה נעימה לאורך כל הצילומים. הצלחת לתפוס רגעים אמיתיים ומלאי אהבה – ואין מאושרים מאיתנו. זכינו"
       </p>
       <span className="text-[#dcad5c] font-medium">★★★★★</span>
-      <p className="text-gray-500 text-sm mt-2">לקוח מאומת – Google</p>
+      <p className="text-gray-500 text-sm mt-2">moshe shemesh – Google</p>
     </div>
 
     {/* REVIEW 4 */}
@@ -106,7 +106,7 @@ const Packages = () => {
 קיצור מודע לו המון לכו עליו."
       </p>
       <span className="text-[#dcad5c] font-medium">★★★★★</span>
-      <p className="text-gray-500 text-sm mt-2">לקוחה מאומתת – Google</p>
+      <p className="text-gray-500 text-sm mt-2">Sheli Naiman – Google</p>
     </div>
 
   </div>
@@ -135,7 +135,7 @@ const Packages = () => {
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
             <div className="text-4xl md:text-5xl font-serif font-bold text-[#dcad5c]">
-        חבילות צילום החל מ-850 ₪
+        חבילות צילום ב-850 ₪
             </div>
             
           </div>
